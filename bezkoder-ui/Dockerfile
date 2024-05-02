@@ -13,5 +13,3 @@ RUN npm run build
 
 # Stage 2
 EXPOSE $REACT_DOCKER_PORT
-
-CMD nginx -g 'daemon off;'
